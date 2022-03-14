@@ -1,0 +1,21 @@
+{
+    "getList": {
+        "cnpjNaoEncontrado": {
+            "cnpj": "00379069000178",
+            "mensagem": "GTM_API_001_002 - Não encontrado títulos para o CNPJ informado!"
+        },
+        "cnpjValido": ""
+    },
+
+    "getLatePaymentList": {
+
+    },
+
+    "getUnpaidList": {
+
+    },
+
+    "getOpenList": {
+
+    }
+}
