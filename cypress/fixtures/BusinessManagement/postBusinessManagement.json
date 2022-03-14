@@ -1,0 +1,26 @@
+{
+    "fillTaxTransactional": {
+        "message": "no content"
+    },
+    "findTaxTransactional": {
+        "startIndex": 1,
+        "totalPerPages": 50,
+        "beginDate": "20220214",
+        "endDate": "20220314",
+        "statusDataQuality": 2,
+        "fiscalNumber": "00379069000178"
+    },
+    "updateTaxTransactional": {
+        "Key": "95b29bd0-ffea-41cd-b89a-17472cb2a9ce",
+        "AcceptUserEmail": "drogariasaosebastiao25@yahoo.com.br",
+        "AcceptPhoneArea": "33",
+        "AcceptUserPhone": "33521186"
+    },
+    "findByFiscalNumber": {
+        "parameter":[
+            {
+                "fiscalNumber": "00379069000178"
+            }
+        ]
+    }
+}
