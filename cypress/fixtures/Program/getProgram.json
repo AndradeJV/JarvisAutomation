@@ -1,0 +1,13 @@
+{
+    "maisClientes": {
+        "Id": 1,
+        "Name": "MAIS CLIENTES",
+        "ProgramType": 0
+    },
+    
+    "taxaTransacional": {
+        "Id": 2,
+        "Name": "TAXA TRANSACIONAL",
+        "ProgramType": 1
+    }
+}
