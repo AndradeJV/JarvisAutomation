@@ -3,14 +3,6 @@ const payload = require("../fixtures/BusinessManagement/postBusinessManagement.j
 
 
 describe("POST - Endpoint Business Management", () => {
-    /*
-    it("Fill tax transactional transactional", () => {
-        postBusinessManagement.postFillTaxTransactional().should(response => {            
-            expect(response.status).to.equal(200);
-        });
-    });
-    */
-
     it("Find tax transactional transactional", () => {
         postBusinessManagement.postFindTaxTransactional().should(response => {
             expect(response.status).to.equal(200);

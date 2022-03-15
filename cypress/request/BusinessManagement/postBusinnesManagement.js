@@ -2,14 +2,6 @@
 const payload = require("../../fixtures/BusinessManagement/postBusinessManagement.json");
 
 
-// Teste no endpoint - Fill Tax Transactional
-const postFillTaxTransactional = () => {
-    return cy.request({
-        method: 'POST',
-        url: "businessmanagement/filltaxtransactional",
-        failOnStatusCode: false,
-    });
-}
 
 // Teste no endpoint - Find Tax Transactional
 const postFindTaxTransactional = () => {
@@ -50,9 +42,8 @@ const postFindByFiscalNumber = () => {
 }
 
 export default {
-    postFillTaxTransactional,
     postFindTaxTransactional,
     postUpdateTaxTransactional,
     postFillMoreClients,
     postFindByFiscalNumber
-}
+};
