@@ -1,6 +1,12 @@
 name: Julliet Automation - GTM
 
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 2 * * *'
 
 jobs:
   cypress-run:
