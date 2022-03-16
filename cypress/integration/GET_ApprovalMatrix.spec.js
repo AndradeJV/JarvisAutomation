@@ -1,15 +1,15 @@
-import * as getApprovalMatrix from "../request/ApprovalMatrix/getList";
+import ApprovalMatrix from "../request/ApprovalMatrix";
 
 
 describe("GET - Endpoint ApprovalMatrix", () => {
     it("Validar status code", () => {
-        getApprovalMatrix.getList().should(response => {
+        ApprovalMatrix.getList().should(response => {
             expect(response.status).to.equal(200);
         });
     });
 
     it("Validar texto status code", () => {
-        getApprovalMatrix.getList().should(response => {
+        ApprovalMatrix.getList().should(response => {
             expect(response.statusText).to.equal("OK");
         });
     });
