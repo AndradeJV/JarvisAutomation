@@ -1,4 +1,4 @@
-import ApprovalMatrix from "../request/ApprovalMatrix";
+import ApprovalMatrix from "../requests/ApprovalMatrix";
 
 
 describe("GET - Endpoint ApprovalMatrix", () => {

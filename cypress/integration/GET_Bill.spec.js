@@ -1,4 +1,4 @@
-import Bill from "../request/Bill";
+import Bill from "../requests/Bill";
 const payload = require("../fixtures/Bill/getBill.json");
 
 

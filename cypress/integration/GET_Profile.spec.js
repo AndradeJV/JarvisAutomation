@@ -1,9 +1,9 @@
-import * as profile from "../request/Profile/getProfile";
+import Profile from "../requests/Profile";
 
 
 describe("GET - Endpoint Profile", () => {
     it("Validar status code", () => {
-        profile.getProfile().should(response => {
+        Profile.getProfile().should(response => {
             expect(response.status).to.equal(200);
         });
     });

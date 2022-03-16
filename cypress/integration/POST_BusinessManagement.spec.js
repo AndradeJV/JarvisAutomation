@@ -1,4 +1,4 @@
-import BusinessManagement from "../request/BusinnesManagement";
+import BusinessManagement from "../requests/BusinnesManagement";
 const payload = require("../fixtures/BusinessManagement/postBusinessManagement.json");
 
 
