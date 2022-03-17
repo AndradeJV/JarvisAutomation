@@ -1,0 +1,15 @@
+{
+  "retornoSucesso": {
+    "id": "1",
+    "Nome": "PDV X ClusterLjs",
+    "Titulo1": "<strong>Como está sua farmácia perante as farmácias concorrentes?</strong>",
+    "Titulo2": "<strong>Considerando a variação das vendas em farmácias do mesmo porte que a sua</strong>",
+    "Temas": null
+  },
+
+  "retornoErro": {
+    "id": "err",
+    "Message": "The request is invalid.",
+    "MessageDetail": "The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Threading.Tasks.Task`1[System.Web.Http.IHttpActionResult] GetBloco(Int32)' in 'Api.Controllers.BlocoController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."
+  }
+}
