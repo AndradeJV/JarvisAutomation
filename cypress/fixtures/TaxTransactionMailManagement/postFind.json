@@ -1,0 +1,19 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "body": {
+      "startIndex": 1,
+      "totalPerPages": 50,
+      "beginDate": "20220214",
+      "endDate": "20220314",
+      "statusDataQuality": 2,
+      "fiscalNumber": "00379069000178"
+    },
+    "res": {
+      "Start": 1,
+      "TotalPerPages": 50,
+      "Total": 0,
+      "TaxTransactionalEmailManagement": []
+    }
+  }
+}
