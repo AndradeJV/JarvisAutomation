@@ -1,0 +1,8 @@
+{
+  "envioSucesso": {
+    "statusResponse": 200,
+    "body": {
+      "headOffice": ""
+    }
+  }
+}

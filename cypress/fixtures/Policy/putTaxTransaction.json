@@ -1,0 +1,27 @@
+{
+  "envioSucesso": {
+    "respostaStatusCodeSuccess": 200,
+    "body": {
+      "basePercentual": 4,
+      "baseTax": 60,
+      "centerOfCost": "337.029.01",
+      "dateAccept": "2021-02-02T03:00:00.000Z",
+      "dateAcceptNegociable": "2021-02-02T03:00:00.000Z",
+      "dateTerm": "2021-02-02T03:00:00.000Z",
+      "fiscalNumber": "00005616000155",
+      "idPortal": "TT",
+      "key": "bad4bf5a-01b1-4a45-9a82-8008d81720eb",
+      "matriz": "00005616000155",
+      "negociablePercentual": 4,
+      "negociableTax": 60,
+      "paymentConditionCode": "5007",
+      "root": "00005616",
+      "saleExemptTax": false,
+      "status": 0,
+      "triggerLiquidValue": 2000,
+      "triggerNegociableValue": null,
+      "unit": "matriz",
+      "userAccept": "JCARLOS "
+    }
+  }
+}

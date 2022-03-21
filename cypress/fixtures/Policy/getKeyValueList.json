@@ -1,0 +1,6 @@
+{
+  "naoEncontrado": {
+    "codigo": 400,
+    "message": "UserId não encontrado no header da requisição!"
+  }
+}
