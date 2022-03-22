@@ -1,0 +1,29 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "responseBody": {
+      "Type": 1,
+      "TypeDescription": "TaxTransactionalCycle",
+      "StatusType": 0,
+      "StatusTypeDescription": "NotInitialized",
+      "ExportFileUri": "https://idp-dev-api.interplayers.com.br/GTM-BILLING-API/api/export/a5faaf00-8322-4879-9844-72e2f7b455de",
+      "Exported": false,
+      "HasError": false,
+      "Error": "",
+      "FileName": null,
+      "FileData": null
+    },
+    "responseHeaders": {
+      "access-control-allow-origin": "*",
+      "cache-control": "no-cache",
+      "content-length": "358",
+      "content-type": "application/json; charset=utf-8",
+      "date": "Tue, 22 Mar 2022 15:39:36 GMT",
+      "expires": "-1",
+      "pragma": "no-cache",
+      "server": "Microsoft-IIS/10.0",
+      "x-aspnet-version": "4.0.30319",
+      "x-powered-by": "ASP.NET"
+    }
+  }
+}

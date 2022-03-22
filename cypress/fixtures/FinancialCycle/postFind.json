@@ -1,0 +1,16 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "body": {
+      "FilterText": "00053082000132",
+      "StartIndex": 1,
+      "TotalPerPages": 50
+    },
+    "responseBody": {
+      "Start": 1,
+      "TotalPerPages": 50,
+      "Total": 0,
+      "Financials": []
+    }
+  }
+}
