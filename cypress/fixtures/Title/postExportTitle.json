@@ -1,0 +1,26 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "envioBody": {
+      "beginDate": "20220224",
+      "endDate": "20220325",
+      "fiscalNumber": "",
+      "startIndex": 1,
+      "status": 0,
+      "totalPerPages": 50
+    },
+    "responseBody": {
+      "ExportKey": "95e9ffa2-9f47-4211-8d15-e5ceeeb53273",
+      "Type": 8,
+      "TypeDescription": "TaxTransactionalTitle",
+      "StatusType": 0,
+      "StatusTypeDescription": "NotInitialized",
+      "ExportFileUri": "https://idp-dev-api.interplayers.com.br/GTM-BILLING-API/api/export/95e9ffa2-9f47-4211-8d15-e5ceeeb53273",
+      "Exported": false,
+      "HasError": false,
+      "Error": "",
+      "FileName": null,
+      "FileData": null
+    }
+  }
+}
