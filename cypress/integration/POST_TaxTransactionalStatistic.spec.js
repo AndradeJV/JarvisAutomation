@@ -15,11 +15,14 @@ describe("POST - Endpoint Tax Transactional Static", () => {
 
     it("Validar retorno - Find Calculate", () => {
         TaxTransactionalStatistic.postFindCalculate(payloadFindCalculate.envioSucesso.sendBody).should(response => {
+            let responseTotalFiscalNumberNew = response.body.TotalFiscalNumberNew;
+
+
             if(response.status !== payloadFindCalculate.envioSucesso.statusCode)
                 return
 
             else {
-                expect(response.body.TotalFiscalNumberNew).to.equal(payloadFindCalculate.envioSucesso.responseBody.TotalFiscalNumberNew);
+                expect(response.body.TotalFiscalNumberNew).to.equal(responseTotalFiscalNumberNew);
                 expect(response.body.TotalHeadOfficeInvoiced).to.equal(payloadFindCalculate.envioSucesso.responseBody.TotalHeadOfficeInvoiced);
 
             }
