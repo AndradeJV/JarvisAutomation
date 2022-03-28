@@ -1,0 +1,17 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "sendBody": {
+      "beginDate": "20220226",
+      "endDate": "20220328",
+      "fiscalNumber": "",
+      "startIndex": 1,
+      "totalPerPages": 50
+    },
+    "responseBody": {
+      "Start":1,
+      "TotalPerPages":50,
+      "Total":0,
+      "TaxTransactionalHistory":[]}
+  }
+}
