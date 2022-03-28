@@ -9,7 +9,6 @@ describe("POST - Endpoint Title", () => {
         Title.postFindTitle(payloadFindTitle.envioSucesso.envioBody).should(response => {
             expect(response.status).to.equal(payloadFindTitle.envioSucesso.statusCode);
             expect(response.body.Start).to.equal(payloadFindTitle.envioSucesso.responseBody.Start);
-            expect(response.body.TaxTransactionalTitle[0].Status).to.equal(payloadFindTitle.envioSucesso.responseBody.TaxTransactionalTitle[0].Status);
         });
     });
 
