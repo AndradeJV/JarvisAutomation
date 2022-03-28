@@ -1,0 +1,23 @@
+{
+  "envioSucesso": {
+    "statusCode": 200,
+    "sendBody": {
+      "beginDate": "20220228",
+      "endDate": "20220328",
+      "fiscalNumber": "",
+      "startIndex": 1,
+      "totalPerPages": 50
+    },
+    "responseBody": {
+      "TotalHeadOfficeInvoiced":0,
+      "TotalBilling":0.0,
+      "TotalValue":0.0,
+      "TotalTaxed":0.0,
+      "TotalNewRate":0.0,
+      "ClientTaxMin":0,
+      "ClientTaxCalculated":0,
+      "TotalFiscalNumberLegacy":28394,
+      "TotalFiscalNumberNew":226
+    }
+  }
+}
