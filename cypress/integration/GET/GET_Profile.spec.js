@@ -1,4 +1,4 @@
-import Profile from "../requests/Profile";
+import Profile from "../../requests/Profile";
 
 
 describe("GET - Endpoint Profile", () => {

@@ -1,5 +1,5 @@
-import Store from "../requests/Store";
-const payload = require("../fixtures/Store/getStore.json");
+import Store from "../../requests/Store";
+const payload = require("../../fixtures/Store/getStore.json");
 
 
 describe("GET - Endpoint Store", () => {

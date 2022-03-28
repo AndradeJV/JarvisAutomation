@@ -1,7 +1,7 @@
-import Title from "../requests/Title";
+import Title from "../../requests/Title";
 
-const payloadFindTitle = require("../fixtures/Title/postFindTitle.json");
-const payloadExportTitle = require("../fixtures/Title/postExportTitle.json");
+const payloadFindTitle = require("../../fixtures/Title/postFindTitle.json");
+const payloadExportTitle = require("../../fixtures/Title/postExportTitle.json");
 
 
 describe("POST - Endpoint Title", () => {

@@ -1,5 +1,5 @@
-import Policy from "../requests/Policy";
-const payloadTaxTransaction = require("../fixtures/Policy/putTaxTransaction.json");
+import Policy from "../../requests/Policy";
+const payloadTaxTransaction = require("../../fixtures/Policy/putTaxTransaction.json");
 
 
 describe("PUT - Endpoint Tax Transaction", () => {

@@ -1,9 +1,9 @@
-import Policy from "../requests/Policy";
+import Policy from "../../requests/Policy";
 
-const payloadFormulaValidator = require("../fixtures/Policy/postFormulaValidator.json");
-const payloadPolicy = require("../fixtures/Policy/postPolicy.json");
-const payloadImport = require("../fixtures/Policy/postImport.json");
-const payloadExport = require("../fixtures/Policy/postExport.json");
+const payloadFormulaValidator = require("../../fixtures/Policy/postFormulaValidator.json");
+const payloadPolicy = require("../../fixtures/Policy/postPolicy.json");
+const payloadImport = require("../../fixtures/Policy/postImport.json");
+const payloadExport = require("../../fixtures/Policy/postExport.json");
 
 
 describe("POST - Endpoint Policy", () => {

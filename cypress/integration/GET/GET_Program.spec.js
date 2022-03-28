@@ -1,5 +1,5 @@
-import Program from "../requests/Program";
-const payload = require("../fixtures/Program/getProgram.json");
+import Program from "../../requests/Program";
+const payload = require("../../fixtures/Program/getProgram.json");
 
 
 

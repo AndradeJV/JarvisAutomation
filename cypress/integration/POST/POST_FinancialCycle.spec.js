@@ -1,7 +1,7 @@
-import FinancialCycle from "../requests/FinancialCycle";
+import FinancialCycle from "../../requests/FinancialCycle";
 
-const payloadFind = require("../fixtures/FinancialCycle/postFind.json");
-const payloadExport = require("../fixtures/FinancialCycle/postExport.json");
+const payloadFind = require("../../fixtures/FinancialCycle/postFind.json");
+const payloadExport = require("../../fixtures/FinancialCycle/postExport.json");
 
 describe("POST - Endpoint Financial Cycle", () => {
     it("Validar retorno - Find",  () => {

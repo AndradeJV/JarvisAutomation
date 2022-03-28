@@ -1,6 +1,6 @@
-import TaxTransactionMailManagement from "../requests/TaxTransactionMailManagement";
+import TaxTransactionMailManagement from "../../requests/TaxTransactionMailManagement";
 
-const payloadFind = require("../fixtures/TaxTransactionMailManagement/postFind.json");
+const payloadFind = require("../../fixtures/TaxTransactionMailManagement/postFind.json");
 
 
 describe("POST - Endpoint Tax Transaction Mail Management", () => {

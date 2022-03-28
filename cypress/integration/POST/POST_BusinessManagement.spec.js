@@ -1,5 +1,5 @@
-import BusinessManagement from "../requests/BusinnesManagement";
-import Helpers from "../support/Helpers";
+import BusinessManagement from "../../requests/BusinnesManagement";
+import Helpers from "../../support/Helpers";
 
 
 describe("POST - Endpoint Business Management", () => {

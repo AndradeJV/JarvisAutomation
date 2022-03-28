@@ -1,4 +1,4 @@
-import CalculationType from "../requests/CalculationType";
+import CalculationType from "../../requests/CalculationType";
 
 
 describe("GET - Endpoint Calculation Type", () =>{

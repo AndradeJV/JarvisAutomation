@@ -1,8 +1,8 @@
-import Policy from "../requests/Policy";
+import Policy from "../../requests/Policy";
 
-const payloadListDetail = require("../fixtures/Policy/getListDetail.json");
-const payloadKeyValueList = require("../fixtures/Policy/getKeyValueList.json");
-const payloadTaxTransaction = require("../fixtures/Policy/getTaxTransaction.json");
+const payloadListDetail = require("../../fixtures/Policy/getListDetail.json");
+const payloadKeyValueList = require("../../fixtures/Policy/getKeyValueList.json");
+const payloadTaxTransaction = require("../../fixtures/Policy/getTaxTransaction.json");
 
 
 describe("GET - Endpoint Policy", () => {

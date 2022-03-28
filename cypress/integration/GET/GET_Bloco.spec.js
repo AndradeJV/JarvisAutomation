@@ -1,5 +1,5 @@
-import Bloco from "../requests/Bloco";
-const payload = require("../fixtures/Bloco/getBloco.json");
+import Bloco from "../../requests/Bloco";
+const payload = require("../../fixtures/Bloco/getBloco.json");
 
 
 describe("GET - Endpoint Bloco", () => {

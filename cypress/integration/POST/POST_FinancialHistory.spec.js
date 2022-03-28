@@ -1,5 +1,5 @@
-import FinancialHistory from "../requests/FinancialHistory";
-const payloadTransactions = require("../fixtures/FinancialHistory/postTransactions.json");
+import FinancialHistory from "../../requests/FinancialHistory";
+const payloadTransactions = require("../../fixtures/FinancialHistory/postTransactions.json");
 
 
 describe("POST - Endpoint Financial History",  () => {

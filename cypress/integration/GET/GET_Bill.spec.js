@@ -1,5 +1,5 @@
-import Bill from "../requests/Bill";
-const payload = require("../fixtures/Bill/getBill.json");
+import Bill from "../../requests/Bill";
+const payload = require("../../fixtures/Bill/getBill.json");
 
 
 

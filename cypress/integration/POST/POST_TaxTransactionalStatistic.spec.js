@@ -1,7 +1,7 @@
-import TaxTransactionalStatistic from "../requests/TaxTransactionalStatistic";
+import TaxTransactionalStatistic from "../../requests/TaxTransactionalStatistic";
 
-const payloadFindRanked = require("../fixtures/TaxTransactionalStatistic/postFindRanked.json");
-const payloadFindCalculate = require("../fixtures/TaxTransactionalStatistic/postFndCalculate.json");
+const payloadFindRanked = require("../../fixtures/TaxTransactionalStatistic/postFindRanked.json");
+const payloadFindCalculate = require("../../fixtures/TaxTransactionalStatistic/postFndCalculate.json");
 
 
 describe("POST - Endpoint Tax Transactional Static", () => {
