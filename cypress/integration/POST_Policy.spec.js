@@ -19,7 +19,7 @@ describe("POST - Endpoint Policy", () => {
         Policy.postPolicy(payloadPolicy.envioSucesso.body).should(response => {
             expect(response.status).to.equal(payloadPolicy.envioSucesso.statusCode);
             expect(response.body.Start).to.equal(payloadPolicy.envioSucesso.Start);
-            expect(response.body.Policies[0].Key).to.equal(payloadPolicy.envioSucesso.response.Key);
+            expect(response.body.Policies[0].Unit).to.equal(payloadPolicy.envioSucesso.response.Unit);
         });
     });
 
