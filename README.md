@@ -12,12 +12,12 @@
 
 ## Pastas
 ### .github
-workflows
-    Arquivos de integração contínua
-    - develop.yml
-        - Arquivo de integração contínua que olha para a branch develop
-    - main.yml
-        - Arquivo de integração contínua que olha para a branch develop
+workflows: arquivos de integração contínua
+
+- develop.yml
+    - Arquivo de integração contínua que olha para a branch develop
+- main.yml
+    - Arquivo de integração contínua que olha para a branch develop
 
 ### cypress
 fixtures
