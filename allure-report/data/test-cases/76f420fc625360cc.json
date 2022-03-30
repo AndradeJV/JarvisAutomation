@@ -1,0 +1,64 @@
+{
+  "uid" : "76f420fc625360cc",
+  "name" : "Validar retorno - Find Calculate",
+  "fullName" : "Validar retorno - Find Calculate",
+  "historyId" : "1c6232e993060db54b33b97e803e5645",
+  "time" : {
+    "start" : 1648579881498,
+    "stop" : 1648579882694,
+    "duration" : 1196
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST 200 /GTM-BILLING-API/api/TaxTransactionalStatistic/findcalculate",
+      "time" : {
+        "start" : 1648579881509,
+        "stop" : 1648579882672,
+        "duration" : 1163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "POST - Endpoint Tax Transactional Static"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76f420fc625360cc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "ae1a6ee99ecfbaeb",
+  "name" : "Find tax transactional transactional",
+  "fullName" : "Find tax transactional transactional",
+  "historyId" : "1eb5aeebcc6c81c977e015591023ee4b",
+  "time" : {
+    "start" : 1648579865116,
+    "stop" : 1648579865711,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST 200 /GTM-BILLING-API/api/businessmanagement/findtaxtransactional",
+      "time" : {
+        "start" : 1648579865133,
+        "stop" : 1648579865705,
+        "duration" : 572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "POST - Endpoint Business Management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae1a6ee99ecfbaeb.json",
+  "parameterValues" : [ ]
+}

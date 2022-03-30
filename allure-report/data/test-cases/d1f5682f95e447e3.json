@@ -1,0 +1,64 @@
+{
+  "uid" : "d1f5682f95e447e3",
+  "name" : "Validar CNPJ - Mensagem não encontrado",
+  "fullName" : "Validar CNPJ - Mensagem não encontrado",
+  "historyId" : "bc30d4bdadcaa8650c3c4e2c63ea0750",
+  "time" : {
+    "start" : 1648579850163,
+    "stop" : 1648579851112,
+    "duration" : 949
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 404 /GTM-BILLING-API/api/bill/list/[object%20Object]",
+      "time" : {
+        "start" : 1648579850180,
+        "stop" : 1648579851084,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET - Endpoint Bill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1f5682f95e447e3.json",
+  "parameterValues" : [ ]
+}

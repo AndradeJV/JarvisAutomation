@@ -1,0 +1,64 @@
+{
+  "uid" : "d9f4d35ec5543bfc",
+  "name" : "Validar requisição - Termo não habilitado",
+  "fullName" : "Validar requisição - Termo não habilitado",
+  "historyId" : "c6d543f5eac67a55c2d14e77dd2ded32",
+  "time" : {
+    "start" : 1648579863641,
+    "stop" : 1648579863826,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 /GTM-BILLING-API/api/store/storebase",
+      "time" : {
+        "start" : 1648579863650,
+        "stop" : 1648579863821,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET - Endpoint Store"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9f4d35ec5543bfc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "48af6cb80bdf822f",
+  "name" : "Validar retorno sucesso - Transactions",
+  "fullName" : "Validar retorno sucesso - Transactions",
+  "historyId" : "fd23f1a6efc0423edd094339742b7830",
+  "time" : {
+    "start" : 1648579874861,
+    "stop" : 1648579875233,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST 200 /GTM-BILLING-API/api/financial/history/transactions",
+      "time" : {
+        "start" : 1648579874876,
+        "stop" : 1648579875206,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "POST - Endpoint Financial History"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48af6cb80bdf822f.json",
+  "parameterValues" : [ ]
+}

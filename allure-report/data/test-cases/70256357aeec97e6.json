@@ -1,0 +1,64 @@
+{
+  "uid" : "70256357aeec97e6",
+  "name" : "Validar retorno - Tax Transaction",
+  "fullName" : "Validar retorno - Tax Transaction",
+  "historyId" : "03ca67056bf76c1ba4d4890c6ccf0b68",
+  "time" : {
+    "start" : 1648579856384,
+    "stop" : 1648579856622,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 /GTM-BILLING-API/api/policy/tax-transaction/8f653e67-d960-4e42-a0b6-b2fc21e31ba6",
+      "time" : {
+        "start" : 1648579856403,
+        "stop" : 1648579856610,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "GET - Endpoint Policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70256357aeec97e6.json",
+  "parameterValues" : [ ]
+}

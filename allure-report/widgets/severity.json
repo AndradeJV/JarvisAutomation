@@ -1,0 +1,341 @@
+[ {
+  "uid" : "25371e46a75f8100",
+  "name" : "Find by fiscal number",
+  "time" : {
+    "start" : 1648579871058,
+    "stop" : 1648579871300,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1a6ee99ecfbaeb",
+  "name" : "Find tax transactional transactional",
+  "time" : {
+    "start" : 1648579865116,
+    "stop" : 1648579865711,
+    "duration" : 595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df9ab6647fa5f6ae",
+  "name" : "Validar status code",
+  "time" : {
+    "start" : 1648579859953,
+    "stop" : 1648579860221,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d5dd88444445ce0",
+  "name" : "Validar retorno - Export",
+  "time" : {
+    "start" : 1648579873388,
+    "stop" : 1648579873594,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9f4d35ec5543bfc",
+  "name" : "Validar requisição - Termo não habilitado",
+  "time" : {
+    "start" : 1648579863641,
+    "stop" : 1648579863826,
+    "duration" : 185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76f420fc625360cc",
+  "name" : "Validar retorno - Find Calculate",
+  "time" : {
+    "start" : 1648579881498,
+    "stop" : 1648579882694,
+    "duration" : 1196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9320efe6f06c57d2",
+  "name" : "Validar Id",
+  "time" : {
+    "start" : 1648579860225,
+    "stop" : 1648579860440,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de556c47d3c920bb",
+  "name" : "Validar retorno - Find Title",
+  "time" : {
+    "start" : 1648579885971,
+    "stop" : 1648579886297,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1f5682f95e447e3",
+  "name" : "Validar CNPJ - Mensagem não encontrado",
+  "time" : {
+    "start" : 1648579850163,
+    "stop" : 1648579851112,
+    "duration" : 949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfeab942eae56bbb",
+  "name" : "Validar requisição - Cliente Base",
+  "time" : {
+    "start" : 1648579863254,
+    "stop" : 1648579863440,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b42cc103e5bd03a",
+  "name" : "Validar retorno - Export",
+  "time" : {
+    "start" : 1648579879812,
+    "stop" : 1648579880018,
+    "duration" : 206
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cbf997cf550bd3c",
+  "name" : "Validar retorno - Export Title",
+  "time" : {
+    "start" : 1648579886303,
+    "stop" : 1648579886495,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61ce1cd97902d089",
+  "name" : "Validar status code",
+  "time" : {
+    "start" : 1648579858460,
+    "stop" : 1648579858718,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc56bc8cdc2bccd1",
+  "name" : "Validar retorno - Find",
+  "time" : {
+    "start" : 1648579884246,
+    "stop" : 1648579884799,
+    "duration" : 553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8401206546f97d0",
+  "name" : "Validar retorno API ",
+  "time" : {
+    "start" : 1648579852368,
+    "stop" : 1648579852624,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3122ce8e7b3851b8",
+  "name" : "Validar retorno - Import",
+  "time" : {
+    "start" : 1648579879599,
+    "stop" : 1648579879806,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b399643a07e93ca",
+  "name" : "Update Tax Transactional",
+  "time" : {
+    "start" : 1648579865717,
+    "stop" : 1648579871053,
+    "duration" : 5336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f029daca4383152a",
+  "name" : "Validar requisição - Termo Pendente",
+  "time" : {
+    "start" : 1648579863446,
+    "stop" : 1648579863635,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "129b8608eb1d5d41",
+  "name" : "Validar requisição - Nova",
+  "time" : {
+    "start" : 1648579862994,
+    "stop" : 1648579863249,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eca738e60d01bec",
+  "name" : "Validar retorno - Find",
+  "time" : {
+    "start" : 1648579873133,
+    "stop" : 1648579873381,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9763bfcdbbe245",
+  "name" : "Validar retorno erro API",
+  "time" : {
+    "start" : 1648579852629,
+    "stop" : 1648579852826,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56ffcb2777b640c5",
+  "name" : "Validar retorno - Formula validator",
+  "time" : {
+    "start" : 1648579876952,
+    "stop" : 1648579877170,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7461097efd60345f",
+  "name" : "Validar resposta body",
+  "time" : {
+    "start" : 1648579854427,
+    "stop" : 1648579854687,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "180949503e53d3dd",
+  "name" : "Validar retorno - Tax Transaction",
+  "time" : {
+    "start" : 1648579888044,
+    "stop" : 1648579888343,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5261aa1c6ce9baaa",
+  "name" : "Validar status code",
+  "time" : {
+    "start" : 1648579847234,
+    "stop" : 1648579848285,
+    "duration" : 1051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90c9a14aa6fc4dfe",
+  "name" : "Validar retorno - Detail",
+  "time" : {
+    "start" : 1648579855910,
+    "stop" : 1648579856176,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd423735c21c98f2",
+  "name" : "Validar retorno - Key Value List",
+  "time" : {
+    "start" : 1648579856181,
+    "stop" : 1648579856377,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70256357aeec97e6",
+  "name" : "Validar retorno - Tax Transaction",
+  "time" : {
+    "start" : 1648579856384,
+    "stop" : 1648579856622,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34f1aa85d3bc0ec0",
+  "name" : "Validar retorno - Find Ranked",
+  "time" : {
+    "start" : 1648579881210,
+    "stop" : 1648579881492,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e2af0932bf87dc5",
+  "name" : "Validar Name",
+  "time" : {
+    "start" : 1648579860444,
+    "stop" : 1648579860752,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48af6cb80bdf822f",
+  "name" : "Validar retorno sucesso - Transactions",
+  "time" : {
+    "start" : 1648579874861,
+    "stop" : 1648579875233,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "239f66a72d524dd3",
+  "name" : "Validar ProgramType",
+  "time" : {
+    "start" : 1648579860758,
+    "stop" : 1648579861361,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e2b991c53b82cf7",
+  "name" : "Validar texto status code",
+  "time" : {
+    "start" : 1648579848290,
+    "stop" : 1648579848500,
+    "duration" : 210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7533282a9fa64162",
+  "name" : "Validar retorno - Policy",
+  "time" : {
+    "start" : 1648579877181,
+    "stop" : 1648579879584,
+    "duration" : 2403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
