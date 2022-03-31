@@ -18,6 +18,15 @@ class FinancialCycle {
             failOnStatusCode: false,
         });
     }
+
+    postLocked(payload){
+        return cy.request({
+            method: 'POST',
+            url: "financialcycle/locked",
+            failOnStatusCode: false,
+            body: payload
+        });
+    }
 }
 
 

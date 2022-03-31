@@ -2,6 +2,8 @@ import FinancialCycle from "../../requests/FinancialCycle";
 
 const payloadFind = require("../../fixtures/FinancialCycle/postFind.json");
 const payloadExport = require("../../fixtures/FinancialCycle/postExport.json");
+const payloadLocked = require("../../fixtures/FinancialCycle/postLocked.json");
+
 
 describe("POST - Endpoint Financial Cycle", () => {
     it("Validar retorno - Find",  () => {
@@ -17,6 +19,13 @@ describe("POST - Endpoint Financial Cycle", () => {
             expect(response.status).to.equal(payloadExport.envioSucesso.statusCode);
             expect(response.headers.pragma).to.equal(payloadExport.envioSucesso.responseHeaders.pragma);
             expect(response.body.TypeDescription).to.equal(payloadExport.envioSucesso.responseBody.TypeDescription);
+        });
+    });
+
+    it("Validar retorno - Locked", () => {
+        FinancialCycle.postLocked(payloadLocked.envioSucesso.sendBody).should(response => {
+            expect(response.status).to.equal(payloadExport.envioSucesso.statusCode);
+            expect(response.headers.pragma).to.equal(payloadLocked.envioSucesso.responseHeaders.pragma);
         });
     });
 })
