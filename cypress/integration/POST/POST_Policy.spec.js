@@ -1,4 +1,3 @@
-/*
 import Policy from "../../requests/Policy";
 
 const payloadFormulaValidator = require("../../fixtures/Policy/postFormulaValidator.json");
@@ -36,5 +35,3 @@ describe("POST - Endpoint Policy", () => {
         });
     });
 })
-
- */

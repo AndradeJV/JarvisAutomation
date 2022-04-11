@@ -4,7 +4,7 @@ const payloadFind = require("../../fixtures/FinancialCycle/postFind.json");
 const payloadExport = require("../../fixtures/FinancialCycle/postExport.json");
 const payloadLocked = require("../../fixtures/FinancialCycle/postLocked.json");
 
-/*
+
 describe("POST - Endpoint Financial Cycle", () => {
     it("Validar retorno - Find",  () => {
         FinancialCycle.postFind(payloadFind.envioSucesso.body).should(response => {
@@ -29,5 +29,3 @@ describe("POST - Endpoint Financial Cycle", () => {
         });
     });
 })
-
- */
