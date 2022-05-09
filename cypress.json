@@ -1,4 +1,10 @@
 {
-    "baseUrl": "https://idp-dev-api.interplayers.com.br/GTM-BILLING-API/api/",
+    "watchForFileChanges": false,
+    "baseUrl": "https://idp-pip-vpi-app.azurewebsites.net/login",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "env": {
+        "apiGTM":"https://idp-dev-api.interplayers.com.br/GTM-BILLING-API/api/"
+    },
     "video": false
 }
