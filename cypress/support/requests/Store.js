@@ -5,7 +5,7 @@ class Store {
     getStore(){
         return cy.request({
             method: 'GET',
-            url: 'store/storebase',
+            url: `${Cypress.env("apiGTM")}/store/storebase`,
             failOnStatusCode: false
         });
     }

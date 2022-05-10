@@ -5,7 +5,7 @@ class CalculationType {
     getList(){
         return cy.request({
            method: 'GET',
-           url: 'calculationtype/list',
+           url: `${Cypress.env("apiGTM")}/calculationtype/list`,
             failOnStatusCode: false
         });
     }

@@ -5,7 +5,7 @@ class FinancialCycle {
     postFind(payload){
         return cy.request({
             method: 'POST',
-            url: "financialcycle/find",
+            url: `${Cypress.env("apiGTM")}/financialcycle/find`,
             failOnStatusCode: false,
             body: payload
         });
@@ -14,7 +14,7 @@ class FinancialCycle {
     postExport(){
         return cy.request({
             method: 'POST',
-            url: "financialcycle/export",
+            url: `${Cypress.env("apiGTM")}/financialcycle/export`,
             failOnStatusCode: false,
         });
     }
@@ -22,7 +22,7 @@ class FinancialCycle {
     postLocked(payload){
         return cy.request({
             method: 'POST',
-            url: "financialcycle/locked",
+            url: `${Cypress.env("apiGTM")}/financialcycle/locked`,
             failOnStatusCode: false,
             body: payload
         });

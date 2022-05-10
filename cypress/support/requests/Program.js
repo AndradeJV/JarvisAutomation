@@ -5,7 +5,7 @@ class Program {
     getProgram(){
         return cy.request({
             method: 'GET',
-            url: "program/list",
+            url: `${Cypress.env("apiGTM")}/program/list`,
             failOnStatusCode: false
         });
     }

@@ -8,7 +8,7 @@ class Bloco {
     getBloco(){
         return cy.request({
            method: 'GET',
-            url: `Bloco/${payloadGetBloco.retornoSucesso.id}`,
+            url: `${Cypress.env("apiGTM")}/Bloco/${payloadGetBloco.retornoSucesso.id}`,
             failOnStatusCode: false
         });
     }
@@ -16,7 +16,7 @@ class Bloco {
     getBlocoERROR(){
         return cy.request({
            method: 'GET',
-            url: `Bloco/${payloadGetBloco.retornoErro.id}`,
+            url: `${Cypress.env("apiGTM")}/Bloco/${payloadGetBloco.retornoErro.id}`,
             failOnStatusCode: false
         });
     }

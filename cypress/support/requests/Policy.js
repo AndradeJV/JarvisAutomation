@@ -5,7 +5,7 @@ class Policy {
     getListDetail(endpoint){
         return cy.request({
            method: 'GET',
-           url: `policy/listdetail/${endpoint}`,
+           url: `${Cypress.env("apiGTM")}/policy/listdetail/${endpoint}`,
            failOnStatusCode: false
         });
     }
@@ -13,7 +13,7 @@ class Policy {
     getKeyValueList(){
         return cy.request({
             method: 'GET',
-            url: "policy/keyvaluelist",
+            url: `${Cypress.env("apiGTM")}/policy/keyvaluelist`,
             failOnStatusCode: false
         });
     }
@@ -21,7 +21,7 @@ class Policy {
     getTaxTransaction(endpoint){
         return cy.request({
             method: 'GET',
-            url: `policy/tax-transaction/${endpoint}`,
+            url: `${Cypress.env("apiGTM")}/policy/tax-transaction/${endpoint}`,
             failOnStatusCode: false
         });
     }
@@ -29,7 +29,7 @@ class Policy {
     postFormulaValidator(payload){
         return cy.request({
             method: 'POST',
-            url: "policy/formulavalidator",
+            url: `${Cypress.env("apiGTM")}/policy/formulavalidator`,
             failOnStatusCode: false,
             body: payload
         })
@@ -38,7 +38,7 @@ class Policy {
     postPolicy(payload){
         return cy.request({
             method: 'POST',
-            url: "policy",
+            url: `${Cypress.env("apiGTM")}/policy`,
             failOnStatusCode: false,
             body: payload
         });
@@ -47,7 +47,7 @@ class Policy {
     postImport(){
         return cy.request({
             method: 'POST',
-            url: "policy/import",
+            url: `${Cypress.env("apiGTM")}/policy/import`,
             failOnStatusCode: false
         });
     }
@@ -55,7 +55,7 @@ class Policy {
     postExport(payload){
         return cy.request({
             method: 'POST',
-            url: "policy/export",
+            url: `${Cypress.env("apiGTM")}/policy/export`,
             failOnStatusCode: false,
             body: payload
         });
@@ -64,7 +64,7 @@ class Policy {
     putTaxTransaction(payload){
         return cy.request({
             method: 'PUT',
-            url: "policy/tax-transaction",
+            url: `${Cypress.env("apiGTM")}/policy/tax-transaction`,
             failOnStatusCode: false,
             body: payload
         })

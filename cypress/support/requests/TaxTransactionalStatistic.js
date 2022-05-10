@@ -5,7 +5,7 @@ class TaxTransactionalStatistic {
     postFindRanked(payload){
         return cy.request({
             method: 'POST',
-            url: "TaxTransactionalStatistic/findranked",
+            url: `${Cypress.env("apiGTM")}/TaxTransactionalStatistic/findranked`,
             failOnStatusCode: false,
             body: payload
         });
@@ -14,7 +14,7 @@ class TaxTransactionalStatistic {
     postFindCalculate(paylaod){
         return cy.request({
             method: 'POST',
-            url: "TaxTransactionalStatistic/findcalculate",
+            url: `${Cypress.env("apiGTM")}/TaxTransactionalStatistic/findcalculate`,
             failOnStatusCode: false,
             body: paylaod
         });

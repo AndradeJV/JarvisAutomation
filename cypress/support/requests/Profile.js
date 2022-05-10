@@ -5,7 +5,7 @@ class Profile {
     getProfile(){
         return cy.request({
             method: 'GET',
-            url: "profile/list",
+            url: `${Cypress.env("apiGTM")}/profile/list`,
             failOnStatusCode: false
         });
     }

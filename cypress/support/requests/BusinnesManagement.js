@@ -6,7 +6,7 @@ class BusinessManagement {
     postFindTaxTransactional(){
         return cy.request({
             method: 'POST',
-            url: "businessmanagement/findtaxtransactional",
+            url: `${Cypress.env("apiGTM")}/businessmanagement/findtaxtransactional`,
             failOnStatusCode: false,
             body: payload.findTaxTransactional
         });
@@ -15,7 +15,7 @@ class BusinessManagement {
     postUpdateTaxTransactional(){
         return cy.request({
             method: 'POST',
-            url: "businessmanagement/updatetaxtransactional",
+            url: `${Cypress.env("apiGTM")}/businessmanagement/updatetaxtransactional`,
             failOnStatusCode: false,
             body: payload.updateTaxTransactional
         });
@@ -24,7 +24,7 @@ class BusinessManagement {
     postFillMoreClients(){
         return cy.request({
             method: 'POST',
-            url: "businessmanagement/fillmoreclients",
+            url: `${Cypress.env("apiGTM")}/businessmanagement/fillmoreclients`,
             failOnStatusCode: false,
             body: payload
         });
@@ -33,7 +33,7 @@ class BusinessManagement {
     postFindByFiscalNumber(){
         return cy.request({
             method: 'POST',
-            url: "businessmanagement/find-by-fiscalnumber",
+            url: `${Cypress.env("apiGTM")}/businessmanagement/find-by-fiscalnumber`,
             failOnStatusCode: false,
             body: payload.findByFiscalNumber.parameter
         });

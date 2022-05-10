@@ -5,7 +5,7 @@ class ApprovalMatrix {
     getList(){
         return cy.request({
             method: 'GET',
-            url: 'approvalmatrix/list',
+            url: `${Cypress.env("apiGTM")}/approvalmatrix/list`,
             failOnStatusCode: false
         });
     }

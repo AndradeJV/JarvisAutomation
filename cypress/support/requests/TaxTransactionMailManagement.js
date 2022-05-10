@@ -5,7 +5,7 @@ class TaxTransactionMailManagement {
     postFind(payload){
         return cy.request({
             method: 'POST',
-            url: "mailmanagement/find",
+            url: `${Cypress.env("apiGTM")}/mailmanagement/find`,
             failOnStatusCode: false,
             body: payload
         });

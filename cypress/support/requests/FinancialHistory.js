@@ -9,7 +9,7 @@ class FinancialHistory {
     postTransactions(payload){
         return cy.request({
             method: 'POST',
-            url: "financial/history/transactions",
+            url: `${Cypress.env("apiGTM")}/financial/history/transactions`,
             failOnStatusCode: false,
             body: payload
         });

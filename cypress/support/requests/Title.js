@@ -5,7 +5,7 @@ class Title {
     postFindTitle(payload){
         return cy.request({
             method: 'POST',
-            url: "title/find-title",
+            url: `${Cypress.env("apiGTM")}/title/find-title`,
             failOnStatusCode: false,
             body: payload
         })
@@ -14,7 +14,7 @@ class Title {
     postExportTitle(payload){
         return cy.request({
             method: 'POST',
-            url: "title/export-title",
+            url: `${Cypress.env("apiGTM")}/title/export-title`,
             failOnStatusCode: false,
             body: payload
         });
