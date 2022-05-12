@@ -1,0 +1,23 @@
+Funcionalidade: Nova regra de gerar Taxa Transacional
+Informações adicionais:
+    User Story atrelada: 86189
+    Task de teste: 86550
+    Observações: N/A
+
+
+
+1.1. Acessar plataforma do taxa transacional
+1.2. Logar na aplicação
+1.3. Validar tela após logar
+1.4. Acessar o GTM
+1.5. Validar tela inicial do GTM
+1.6. Acessar o taxa transacional
+1.7. Clicar no botão "Processar Taxa Transacional"
+1.8. Incluir campo data inicial
+1.9. Incluir campo data final
+1.10. Incluir campo Matriz (incluir uma filial)
+1.11. Clicar no botão "Processar"
+1.12. Aguardar processamento da taxa transacional
+1.13. Coletar id de processamento
+1.14. Validar botão de download de relatório
+1.15. Verificar se foi gerado taxa transacional para flial

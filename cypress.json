@@ -1,10 +1,23 @@
 {
-    "watchForFileChanges": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reporterDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+    },
     "baseUrl": "https://idp-pip-vpi-app.azurewebsites.net/login",
     "viewportWidth": 1440,
     "viewportHeight": 900,
     "env": {
         "apiGTM":"https://idp-dev-api.interplayers.com.br/GTM-BILLING-API/api/"
     },
-    "video": false
+    "video": false,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 10000,
+    "responseTimeout": 60000
 }
