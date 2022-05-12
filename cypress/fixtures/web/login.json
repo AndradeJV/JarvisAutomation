@@ -1,0 +1,19 @@
+{
+    "cssMensagemErro": "#alert-login span",
+    "mensagemErro": "Usuário ou Senha incorretos.",
+
+    "loginSemUsuario": {
+        "user": "",
+        "password": "teste"
+    },
+
+    "loginSemSenha": {
+        "user": "idp.dev",
+        "password": ""
+    },
+
+    "loginSemDados": {
+        "user": "",
+        "password": ""
+    }
+}

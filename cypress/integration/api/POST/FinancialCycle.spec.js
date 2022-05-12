@@ -22,10 +22,10 @@ describe("POST - Endpoint Financial Cycle", () => {
         });
     });
 
-    it("Validar retorno - Locked", () => {
-        FinancialCycle.postLocked(payloadLocked.envioSucesso.sendBody).should(response => {
-            expect(response.status).to.equal(payloadExport.envioSucesso.statusCode);
-            expect(response.headers.pragma).to.equal(payloadLocked.envioSucesso.responseHeaders.pragma);
-        });
-    });
+    // it("Validar retorno - Locked", () => {
+    //     FinancialCycle.postLocked(payloadLocked.envioSucesso.sendBody).should(response => {
+    //         expect(response.status).to.equal(payloadExport.envioSucesso.statusCode);
+    //         expect(response.headers.pragma).to.equal(payloadLocked.envioSucesso.responseHeaders.pragma);
+    //     });
+    // });
 })
