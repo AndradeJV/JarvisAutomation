@@ -1,4 +1,9 @@
 {
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "downloadsFolder": "cypress/downloads",
     "reporter": "mochawesome",
     "reporterOptions": {
         "reporterDir": "cypress/reports",
