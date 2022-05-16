@@ -1,5 +1,4 @@
 import BusinessManagement from "../../../support/requests/BusinnesManagement";
-import Helpers from "../../../support/Helpers";
 
 
 describe("POST - Endpoint Business Management", () => {
@@ -11,7 +10,6 @@ describe("POST - Endpoint Business Management", () => {
 
     it("Update Tax Transactional", () => {
         BusinessManagement.postUpdateTaxTransactional().should(response => {
-            Helpers.waitForTime(5);
             expect(response.status).to.equal(200);
         });
     });
