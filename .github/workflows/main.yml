@@ -9,7 +9,7 @@ on:
   #   - cron: '0 13 * * *'
 
 jobs:
-  cypress-run:
+  test-linux:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
