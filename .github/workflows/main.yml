@@ -17,8 +17,13 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: npm install
+          build: |
+                npm install
+                npm run build --if-present
+                npm run test --if-present
           start: npm run cypress:run
+
+
       - name: Run tests
         if: always()
         continue-on-error: true
