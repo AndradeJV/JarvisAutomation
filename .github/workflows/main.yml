@@ -9,37 +9,36 @@ on:
   #   - cron: '0 13 * * *'
 
 jobs:
-  test-linux:
+  cypress-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v4.x.x # use the explicit version number
         with:
-          build: |
-                npm install
-                npm run build --if-present
-                npm run test --if-present
-          start: npm run cypress:run
+          build: npm i
+          start: npm start
 
 
-      - name: Run tests
-        if: always()
-        continue-on-error: true
-        run: ./mvnw clean test
-      - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
-        run: |
-          allure generate allure-results -o allure-report/
-      - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
-        uses: actions/upload-artifact@v2
-        with:
-          name: allure-report
-          path: allure-report
+      # - name: Run tests
+      #   if: always()
+      #   continue-on-error: true
+      #   run: ./mvnw clean test
+      # - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
+      #   run: |
+      #     allure generate allure-results -o allure-report/
+      # - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: allure-report
+      #     path: allure-report
         
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages  # default: gh-pages
-          publish_dir: allure-report
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_branch: gh-pages  # default: gh-pages
+      #     publish_dir: allure-report
