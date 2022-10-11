@@ -4,7 +4,7 @@
 class HeaderComponent {
     // Acessar faturamento
     accessRevenues(){
-        cy.get("menu-bar:nth-child(1) > div > a").click();
+        cy.get("menu-bar:nth-child(1) > div > a").click();  
     }
 
     // Acessar financeiro
